@@ -2,6 +2,8 @@ backend:
   name: github
   repo: Slavik191/Slavik191.github.io
   branch: main # Branch to update (optional; defaults to master)
+  base_url: https://api.github.com
+  auth_endpoint: auth
 media_folder: public/img
 public_folder: img
 collections:
@@ -20,4 +22,4 @@ collections:
           widget: list
           fields:
             - { label: "Name", name: "name", widget: "string"}
-            - { label: "Description", name: "description", widget: "text"}
+            - { label: "Description", name: "description", widget: "text"} 
