@@ -1,9 +1,11 @@
 backend:
   name: github
   repo: Slavik191/Slavik191.github.io
+  api_root: https://api.github.com
+  site_domain: https://slavik191.github.io
+  base_url: https://api.netlify.com
+  auth_endpoint: auth
   branch: main # Branch to update (optional; defaults to master)
-  base_url: https://api.github.com
-  auth_endpoint: user
 media_folder: public/img
 public_folder: img
 collections:
