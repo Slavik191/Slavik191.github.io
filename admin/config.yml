@@ -1,10 +1,6 @@
 backend:
   name: github
   repo: Slavik191/Slavik191.github.io
-  api_root: https://api.github.com
-  site_domain: https://slavik191.github.io
-  base_url: https://github.com
-  auth_endpoint: login/oauth/authorize
   branch: main # Branch to update (optional; defaults to master)
 media_folder: public/img
 public_folder: img
