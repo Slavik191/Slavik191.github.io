@@ -12,4 +12,6 @@ collections:
       label: "Scorecard"
       file: "content/scorecard.md"
       fields:
+        - { label: "Title", name: "title", widget: "string"}
+        - { label: "Description", name: "description", widget: "text"}
         - { label: "Body", name: "body", widget: "markdown"}
