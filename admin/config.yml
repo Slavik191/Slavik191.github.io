@@ -2,6 +2,7 @@ backend:
   name: github
   repo: Slavik191/Slavik191.github.io
   branch: main # Branch to update (optional; defaults to master)
+publish_mode: editorial_workflow
 media_folder: public/img
 public_folder: img
 collections:
@@ -20,23 +21,20 @@ collections:
           widget: list
           fields:
             - { label: "Title", name: "title", widget: "string"}
-            - { label: "Description", name: "description", widget: "text"}
-            - label: "Table" 
-              name: "table" 
-              fields: 
-                label: "Row" 
-                name: "row"  
-                widget: "list"
-                fields:
-                  - { label: "Scorecard Attribute", name: "scorecard-attribute", widget: "string"}
-                  - label: "Category"
-                    name: "category"
-                    widget: "select" 
-                    options: ["Governance", "Validator market", "Security", "Validator set"]
-                  - label: "Self-Assessment"
-                    name: "self-assessment" 
-                    widget: "select" 
-                    options: ["Good", "Okay", "Needs improvement"]
-                  - { label: "Comments", name: "comments", widget: "text"}
+            - { label: "Description", name: "description", widget: "text"} 
+            - label: "Row" 
+              name: "row"  
+              widget: "list"
+              fields:
+                - { label: "Scorecard Attribute", name: "scorecard-attribute", widget: "string"}
+                - label: "Category"
+                  name: "category"
+                  widget: "select" 
+                  options: ["Governance", "Validator market", "Security", "Validator set"]
+                - label: "Self-Assessment"
+                  name: "self-assessment" 
+                  widget: "select" 
+                  options: ["Good", "Okay", "Needs improvement"]
+                - { label: "Comments", name: "comments", widget: "text"}
             
             
