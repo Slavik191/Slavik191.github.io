@@ -23,10 +23,9 @@ collections:
             - { label: "Description", name: "description", widget: "text"}
             - label: "Table" 
               name: "table" 
-              widget: "object"
               fields: 
-                label: "Teeeee" 
-                name: "teeeeee" 
+                label: "Row" 
+                name: "row"  
                 widget: "list"
                 fields:
                   - { label: "Scorecard Attribute", name: "scorecard-attribute", widget: "string"}
