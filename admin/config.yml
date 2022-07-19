@@ -21,13 +21,16 @@ collections:
           fields:
             - { label: "Title", name: "title", widget: "string"}
             - { label: "Description", name: "description", widget: "text"}
-            - { 
-              label: "Table", 
+            - label: "Table", 
               name: "table", 
               widget: "list",
               fields:
                 - { label: "Scorecard Attribute", name: "scorecard-attribute", widget: "string"}
                 - { label: "Category", name: "category", widget: "string"}
-                - { label: "Self-Assessment", name: "self-assessment", widget: "select", options: ["Good", "Okay", "Needs improvement"]}
+                - label: "Self-Assessment"
+                  name: "self-assessment" 
+                  widget: "select" 
+                  options: ["Good", "Okay", "Needs improvement"]
                 - { label: "Comments", name: "comments", widget: "md"}
-            }
+            
+            
