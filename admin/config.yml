@@ -25,15 +25,19 @@ collections:
               name: "table" 
               widget: "object"
               fields: 
-                - { label: "Scorecard Attribute", name: "scorecard-attribute", widget: "string"}
-                - label: "Category"
-                  name: "category"
-                  widget: "select" 
-                  options: ["Governance", "Validator market", "Security", "Validator set"]
-                - label: "Self-Assessment"
-                  name: "self-assessment" 
-                  widget: "select" 
-                  options: ["Good", "Okay", "Needs improvement"]
-                - { label: "Comments", name: "comments", widget: "text"}
+                label: "Row" 
+                name: "row" 
+                widget: "list"
+                fields:
+                  - { label: "Scorecard Attribute", name: "scorecard-attribute", widget: "string"}
+                  - label: "Category"
+                    name: "category"
+                    widget: "select" 
+                    options: ["Governance", "Validator market", "Security", "Validator set"]
+                  - label: "Self-Assessment"
+                    name: "self-assessment" 
+                    widget: "select" 
+                    options: ["Good", "Okay", "Needs improvement"]
+                  - { label: "Comments", name: "comments", widget: "text"}
             
             
