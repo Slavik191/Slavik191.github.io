@@ -25,8 +25,8 @@ collections:
               name: "table" 
               widget: "object"
               fields: 
-                label: "Row" 
-                name: "row" 
+                label: "Teeeee" 
+                name: "teeeeee" 
                 widget: "list"
                 fields:
                   - { label: "Scorecard Attribute", name: "scorecard-attribute", widget: "string"}
