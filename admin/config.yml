@@ -21,11 +21,11 @@ collections:
           widget: list
           fields:
             - { label: "Title", name: "title", widget: "string"}
-            - { label: "Description", name: "description", widget: "text"} 
-            - label: "Row" 
-              name: "row"  
-              widget: "list"
-              fields:
+            - { label: "Description", name: "description", widget: "text"}
+            - label: "Table" 
+              name: "table" 
+              widget: "object"
+              fields: 
                 - { label: "Scorecard Attribute", name: "scorecard-attribute", widget: "string"}
                 - label: "Category"
                   name: "category"
