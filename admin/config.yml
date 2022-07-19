@@ -21,9 +21,9 @@ collections:
           fields:
             - { label: "Title", name: "title", widget: "string"}
             - { label: "Description", name: "description", widget: "text"}
-            - label: "Table", 
-              name: "table", 
-              widget: "list",
+            - label: "Table" 
+              name: "table" 
+              widget: "list"
               fields:
                 - { label: "Scorecard Attribute", name: "scorecard-attribute", widget: "string"}
                 - { label: "Category", name: "category", widget: "string"}
