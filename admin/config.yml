@@ -23,10 +23,10 @@ collections:
           widget: list
           fields:
             - { label: "Title", name: "title", widget: "string"}
-            - { label: "Description", name: "description", widget: "text"}
+            - { label: "Description", name: "description", widget: "md"}
             - label: "Table" 
-              name: "table" 
-              label_singular: "Row"
+              name: "table"
+              label_singular: "row"
               widget: "list"
               fields: 
                 - { label: "Scorecard Attribute", name: "scorecard-attribute", widget: "string"}
