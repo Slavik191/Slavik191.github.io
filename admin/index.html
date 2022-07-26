@@ -61,10 +61,10 @@
         {
           name: 'details',
           label: 'Details',
-          widget: 'markdown'
+          widget: 'string'
         }
       ],
-      pattern: /^<details>$\s*?<summary>(.*?)<\/summary>\n\n(.*?)\n^<\/details>$/ms,
+      pattern: /^<details>$\s*?<summary>(.*?)<\/summary>(.*?)<\/details>$/ms,
       fromBlock: function(match) {
         return {
           summary: match[1],
