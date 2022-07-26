@@ -18,6 +18,7 @@ collections:
         - { label: "Title", name: "title", widget: "string"}
         - { label: "Description", name: "description", widget: "text"}
         - { label: "Body", name: "body", widget: "markdown"}
+        - { label: "Collapsible Note", name: "Collapsible Note", widget: "collapsible-note"}
         - name: categories
           label: Categories
           widget: categories
