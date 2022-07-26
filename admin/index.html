@@ -61,7 +61,7 @@
         label: 'Sidenote',
         widget: 'markdown'
       }],
-      pattern: /^<span class="sidenote"><span class="sidenote__toggle">(\/.*\/m)<\/span><span class="sidenote__note">(.*)<\/span><\/span>/,
+      pattern: /^<span class="sidenote"><span class="sidenote__toggle">(.*)<\/span><span class="sidenote__note">(.*)<\/span><\/span>/,
       fromBlock: function(match) {
         return {
           element: match[1],
