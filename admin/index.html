@@ -66,9 +66,10 @@
       ],
       pattern: /^<details>$\s*?<summary>(.*?)<\/summary>(.*?)<\/details>$/ms,
       fromBlock: function(match) {
+        console.log(match)
         return {
-          summary: match[0],
-          detail: match[1]
+          summary: match[1],
+          detail: match[2]
         };
       },
       toBlock: function(data) {
