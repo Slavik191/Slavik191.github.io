@@ -50,48 +50,34 @@
     ////////////////////////
 
     CMS.registerEditorComponent({
-      id: "collapsible-note",
-      label: "Collapsible Note",
-      fields: [
-        {
-          name: 'summary',
-          label: 'Summary',
-          widget: 'string'
-        },
-        {
-          name: 'details',
-          label: 'Details',
-          widget: 'string'
-        }
-      ],
-      pattern: /^<details>$\s*?<summary>(.*?)<\/summary>(.*?)<\/details>$/ms,
+      id: "sidenote",
+      label: "Sidenote",
+      fields: [{
+        name: 'element',
+        label: 'In-Text Element',
+        widget: 'string'
+      }, {
+        name: 'sidenote',
+        label: 'Sidenote',
+        widget: 'markdown'
+      }],
+      pattern: /^<span class="sidenote"><span class="sidenote__toggle">(.*)<\/span><span class="sidenote__note">(.*)<\/span><\/span>/,
       fromBlock: function(match) {
-        console.log(match)
         return {
-          summary: match[1],
-          detail: match[2]
+          element: match[1],
+          sidenote: match[2],
         };
       },
-      toBlock: function(data) {
-        return `
-          <details>
-            <summary>${data.summary}</summary>
-
-            ${data.detail}
-
-          </details>
-        `;
+      toBlock: function(obj) {
+        return (
+          '<span class="sidenote"><span class="sidenote__toggle">' + obj.element + '</span><span class="sidenote__note">' + obj.sidenote + '</span></span>'
+        );
       },
-      toPreview: function(data) {
-        return `
-          <details>
-            <summary>${data.summary}</summary>
-
-            ${data.detail}
-
-          </details>
-        `;
-      }
+      toPreview: function(obj) {
+        return (
+          '<span class="sidenote"><span class="sidenote__toggle">' + obj.element + '</span><span class="sidenote__note">' + obj.sidenote + '</span></span>'
+        );
+      },
     });
   </script>
 </body>
