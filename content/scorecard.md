@@ -3,6 +3,13 @@ title: Lido on Ethereum
 description: Keep track of the latest updates on how Lido is performing against
   its goal of being decentralized, trustless, governance-minimized and
   ethos-aligned with the Ethereum community.
+categories:
+  - sadasdads|dasdsd
+  - sdsdfsdf
+  - sdsdfsdf
+  - csacsdcsd
+  - csdcsddcsdc
+  - csdcsdcsc
 section:
   - table:
       - category: Security
