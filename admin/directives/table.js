@@ -1,6 +1,6 @@
 import {registerCustomDirective} from '../utils.mjs'
 
-registerCustomDirective('table', {
+registerCustomDirective('test', {
     fields: [{
       name: 'table',
       label: 'Table',
