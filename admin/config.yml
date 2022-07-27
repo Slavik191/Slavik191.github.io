@@ -43,6 +43,6 @@ collections:
                   name: "self-assessment" 
                   widget: "select" 
                   options: ["Good", "Okay", "Needs improvement"]
-                - { label: "Comments", name: "comments", widget: "text"}
+                - { label: "Comments", name: "comments", widget: "markdown"}
             
             
