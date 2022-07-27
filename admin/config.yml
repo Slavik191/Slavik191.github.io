@@ -17,7 +17,7 @@ collections:
       fields:
         - { label: "Title", name: "title", widget: "string"}
         - { label: "Description", name: "description", widget: "text"}
-        - { label: "Body", name: "body", widget: "markdown", modes: ["rich_text"] }
+        - { label: "Body", name: "body", widget: "markdown", modes: ["rich_text"], buttons: ["heading-two", "link"] }
         # - { label: "Collapsible Note", name: "Collapsible Note", widget: "markdown"}
         # - label: 'Section'
         #   name: "section"
