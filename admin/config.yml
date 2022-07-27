@@ -37,8 +37,8 @@ collections:
                 - { label: "Scorecard Attribute", name: "scorecard-attribute", widget: "string"}
                 - label: "Category"
                   name: "category"
-                  widget: "select" 
-                  options: ["Governance", "Validator market", "Security", "Validator set"]
+                  widget: "categories" 
+                  # options: ["Governance", "Validator market", "Security", "Validator set"]
                 - label: "Self-Assessment"
                   name: "self-assessment" 
                   widget: "select" 
