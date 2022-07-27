@@ -4,9 +4,8 @@ registerCustomDirective('table', {
     fields: [{
         name: 'table',
         label: 'Table',
-        widget: 'string',
-        label_singular: "row",
         widget: "list",
+        label_singular: "row",
         fields: [{
           label: "Title", 
           name: "title", 
