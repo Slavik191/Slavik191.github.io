@@ -28,7 +28,7 @@ collections:
           widget: list
           fields:
             - { label: "Title", name: "title", widget: "string"}
-            - { label: "Description", name: "description", widget: "md"}
+            - { label: "Description", name: "description", widget: "markdown"}
             - label: "Table" 
               name: "table"
               label_singular: "row"
@@ -43,6 +43,6 @@ collections:
                   name: "self-assessment" 
                   widget: "select" 
                   options: ["Good", "Okay", "Needs improvement"]
-                - { label: "Comments", name: "comments", widget: "categories"}
+                - { label: "Comments", name: "comments", widget: "text"}
             
             
