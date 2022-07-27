@@ -38,6 +38,7 @@ collections:
                 - label: "Category"
                   name: "category"
                   widget: "categories" 
+                  separator: __
                   # options: ["Governance", "Validator market", "Security", "Validator set"]
                 - label: "Self-Assessment"
                   name: "self-assessment" 
