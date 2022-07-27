@@ -19,10 +19,6 @@ collections:
         - { label: "Description", name: "description", widget: "text"}
         - { label: "Body", name: "body", widget: "markdown"}
         - { label: "Collapsible Note", name: "Collapsible Note", widget: "markdown"}
-        - name: categories
-          label: Categories
-          widget: categories
-          separator: __
         - label: 'Section'
           name: "section"
           widget: list
@@ -35,11 +31,10 @@ collections:
               widget: "list"
               fields: 
                 - { label: "Scorecard Attribute", name: "scorecard-attribute", widget: "string"}
-                - label: "Category"
-                  name: "category"
-                  widget: "categories" 
+                - name: categories
+                  label: Categories
+                  widget: categories
                   separator: __
-                  # options: ["Governance", "Validator market", "Security", "Validator set"]
                 - label: "Self-Assessment"
                   name: "self-assessment" 
                   widget: "select" 
