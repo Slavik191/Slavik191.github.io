@@ -1,4 +1,5 @@
 import '../directives/sidenote.mjs'
+import '../directives/table.mjs'
 
 const CategoriesControl = createClass({
     handleChange(e) {
