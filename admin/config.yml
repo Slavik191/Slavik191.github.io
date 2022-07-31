@@ -17,28 +17,6 @@ collections:
       fields:
         - { label: "Title", name: "title", widget: "string"}
         - { label: "Description", name: "description", widget: "text"}
-        - { label: "Body", name: "body", widget: "markdown", buttons: ["heading-two", "link"] }
-        # - { label: "Collapsible Note", name: "Collapsible Note", widget: "markdown"}
-        # - label: 'Section'
-        #   name: "section"
-        #   widget: list
-        #   fields:
-        #     - { label: "Title", name: "title", widget: "string"}
-        #     - { label: "Description", name: "description", widget: "markdown"}
-        #     - label: "Table" 
-        #       name: "table"
-        #       label_singular: "row"
-        #       widget: "list"
-        #       fields: 
-        #         - { label: "Scorecard Attribute", name: "scorecard-attribute", widget: "string"}
-        #         - name: categories
-        #           label: Categories
-        #           widget: categories
-        #           separator: __
-        #         - label: "Self-Assessment"
-        #           name: "self-assessment" 
-        #           widget: "select" 
-        #           options: ["Good", "Okay", "Needs improvement"]
-        #         - { label: "Comments", name: "comments", widget: "markdown"}
+        - { label: "Body", name: "body", widget: "markdown", buttons: ["heading-two", "link"], editor_components: ["table"], modes: ["rich_text"]}
             
             
