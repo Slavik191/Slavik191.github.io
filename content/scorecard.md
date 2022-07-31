@@ -14,7 +14,7 @@ section:
 ---
 :::table
 rows:
-  - {}
+  - scorecard-attribute: asd
 
 :::
 
