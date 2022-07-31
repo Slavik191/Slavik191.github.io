@@ -14,7 +14,7 @@ section:
 ---
 :::table
 rows:
-  - {}
+  - categories: Validator market
 
 :::
 
