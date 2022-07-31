@@ -15,6 +15,7 @@ section:
 :::table
 rows:
   - categories: Validator market
+    scorecard-attribute: zx
 
 :::
 
