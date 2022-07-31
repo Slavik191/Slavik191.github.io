@@ -13,7 +13,8 @@ section:
     description: sdfsdf
 ---
 :::table
-{}
+rows:
+  - {}
 
 :::
 
