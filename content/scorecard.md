@@ -26,6 +26,14 @@ rows:
 
 :::
 
+xasxasxasx
 
+xasxasxasx
 
-[](https://gist.github.com/mariyamuziko/5d7cd8821d3da34e73a9cb61c56ed34b#where-were-already-succeeding)
+:::table
+rows:
+  - scorecard-attribute: sxasx
+    categories: Validator market
+    self-assessment: Okay
+
+:::
