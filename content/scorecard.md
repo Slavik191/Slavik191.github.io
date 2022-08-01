@@ -17,4 +17,5 @@ While these attributes will remain under review, we assess Lido's performance to
 :::tablerows:
   - scorecard-attribute: asd
     categories: Validator market
+    self-assessment: Needs improvement
 :::
