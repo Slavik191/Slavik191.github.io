@@ -14,10 +14,7 @@ The scorecard below shows how we are doing. We invite input and feedback from th
 
 While these attributes will remain under review, we assess Lido's performance to be 'Good'. We welcome community feedback on the attributes and how they are scored on our Research Forum.
 
-
-    :::table
-    rows:
-  - scorecard-attribute: sdf
+:::tablerows:
+  - scorecard-attribute: asd
     categories: Validator market
-    self-assessment: Good
 :::
