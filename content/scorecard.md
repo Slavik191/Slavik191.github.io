@@ -26,6 +26,10 @@ rows:
 
 :::
 
+zxcdcsdcsd sdf,;lsdf;,sdf;l,sdf
 
+:::table
+rows:
+  - scorecard-attribute: dfas
 
-[](https://gist.github.com/mariyamuziko/5d7cd8821d3da34e73a9cb61c56ed34b#where-were-already-succeeding)
+:::
