@@ -14,4 +14,20 @@ The scorecard below shows how we are doing. We invite input and feedback from th
 
 While these attributes will remain under review, we assess Lido's performance to be 'Good'. We welcome community feedback on the attributes and how they are scored on our Research Forum.
 
-[](https://gist.github.com/mariyamuziko/5d7cd8821d3da34e73a9cb61c56ed34b#where-were-already-succeeding)
+::: table
+rows:
+  - scorecard-attribute: asdasd
+    categories: Security
+    self-assessment: Okay
+
+:::
+
+## asdasd
+
+::: table
+rows:
+  - scorecard-attribute: asxasx
+    categories: Security
+    self-assessment: Okay
+
+:::
