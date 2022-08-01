@@ -4,6 +4,11 @@ description: Keep track of the latest updates on how Lido is performing against
   its goal of being decentralized, trustless, governance-minimized and
   ethos-aligned with the Ethereum community.
 ---
+:::table
+{}
+
+:::
+
 Lido started with a mission to keep Ethereum decentralized and to democratize access to staking on the Beacon Chain.
 
 While the protocol specification and related technologies evolve, Lido continues to drive towards its vision of a trustless, governance-minimized, and ethos aligned liquid staking protocol.
@@ -25,7 +30,5 @@ rows:
     comments: "As discussed in our\_[The Next Chapter for Lido](https://blog.lido.fi/the-next-chapter-for-lido/)\_article, as a very last resort (in the case of governance capture) we have made it trivial for Ethereum core developers to revoke Lido’s current permissions and transfer them to a community-owned contract."
 
 :::
-
-
 
 [](https://gist.github.com/mariyamuziko/5d7cd8821d3da34e73a9cb61c56ed34b#where-were-already-succeeding)
