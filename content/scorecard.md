@@ -14,18 +14,6 @@ The scorecard below shows how we are doing. We invite input and feedback from th
 
 While these attributes will remain under review, we assess Lido's performance to be 'Good'. We welcome community feedback on the attributes and how they are scored on our Research Forum.
 
-:::table
-rows:
-  - scorecard-attribute: Legally and physically unrelated
-    categories: Validator set
-    self-assessment: Good
-  - scorecard-attribute: Lido’s hostile takeover via a hard fork is possible
-    categories: Security
-    self-assessment: Good
-    comments: "As discussed in our\_[The Next Chapter for Lido](https://blog.lido.fi/the-next-chapter-for-lido/)\_article, as a very last resort (in the case of governance capture) we have made it trivial for Ethereum core developers to revoke Lido’s current permissions and transfer them to a community-owned contract."
-
-:::
-
 
 
 [](https://gist.github.com/mariyamuziko/5d7cd8821d3da34e73a9cb61c56ed34b#where-were-already-succeeding)
