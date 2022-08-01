@@ -26,6 +26,11 @@ rows:
 
 :::
 
+xZXX
 
+:::table
+rows:
+  - scorecard-attribute: asx
+    categories: Validator market
 
-[](https://gist.github.com/mariyamuziko/5d7cd8821d3da34e73a9cb61c56ed34b#where-were-already-succeeding)
+:::
