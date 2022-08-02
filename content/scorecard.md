@@ -19,4 +19,45 @@ rows:
   - scorecard-attribute: asd
     categories: Validator market
     self-assessment: Okay
+    comments: sadasd
+:::
+
+## sasdads
+
+::: table
+rows:
+  - scorecard-attribute: asdasd
+    categories: Validator market
+    self-assessment: Needs improvement
+    comments: asdasdsad
+:::
+
+asdasd
+
+::: table
+rows:
+  - scorecard-attribute: asdasd
+    categories: Validator market
+    self-assessment: Needs improvement
+    comments: '[sadsd](https://www.google.com/)'
+:::
+
+sasdasd
+
+::: table
+rows:
+  - categories: Security
+    scorecard-attribute: dqwdqwd
+:::
+
+## Save test
+
+While these attributes will remain under review, we assess Lido's performance to be 'Good'. We welcome community feedback on the attributes and how they are scored on our Research [Forum](https://www.google.com/).
+
+::: table
+rows:
+  - scorecard-attribute: ssdfds
+    categories: Validator market
+    self-assessment: Okay
+    comments: sdfsdfsdfsdf
 :::
