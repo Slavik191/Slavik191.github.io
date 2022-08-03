@@ -4,7 +4,9 @@ description: Keep track of the latest updates on how Lido is performing against
   its goal of being decentralized, trustless, governance-minimized and
   ethos-aligned with the Ethereum community.
 ---
-Lido started wit
+Lido started 
+
+wit
 
 h a mission to keep Ethereum decentralized and to democratize access to staking on the Beacon Chain.
 
@@ -35,4 +37,24 @@ rows:
   - scorecard-attribute: asd
     categories: Validator market
     self-assessment: Okay
+:::
+
+sadad
+
+::: table
+rows:
+  - scorecard-attribute: asdasd
+    categories: Validator market
+    self-assessment: Okay
+    comments: asdasdad
+:::
+
+asdasdasd'
+
+::: table
+rows:
+  - scorecard-attribute: asda
+    categories: Security
+    self-assessment: Okay
+    comments: asdasdasdasd
 :::
