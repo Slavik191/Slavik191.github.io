@@ -33,7 +33,7 @@ While these attributes will remain under review, we assess Lido's performance to
 rows:
   - scorecard-attribute: Legally and physically unrelated
     categories: Validator market
-    self-assessment: Needs improvement
+    self-assessment: Okay
   - scorecard-attribute: Lido’s hostile takeover via a hard fork is possible
     categories: Security
     self-assessment: Good
