@@ -10,7 +10,7 @@ While the protocol specification and related technologies evolve, Lido continues
 
 The scorecard below shows how we are doing. We invite input and feedback from the Ethereum community to keep track along the way on our [research forum](https://research.lido.fi/). 
 
-## Where we’re already succeeding
+## Where we’re already succeeding {#test_test}
 
 While these attributes will remain under review, we assess Lido's performance to be 'Good'. We welcome community feedback on the attributes and how they are scored on our Research Forum.
 
