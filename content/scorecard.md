@@ -43,25 +43,3 @@ rows:
 ## Needs Improvement
 
 These attributes clearly need work and Lido is actively working on solutions and improvements. We welcome input from the DAO, our partners and the wider community as we seek solutions
-
-::: table
-rows:
-  - scorecard-attribute: Lido governance has significant safeguards
-    categories: Governance
-    self-assessment: Needs improvement
-    comments: >-
-      Currently, the Aragon votes are two-phased. The first phase is regular
-      vote, and the second one is time-lock with objections, during which LDO
-      holders can only vote 'against' or change their vote from 'for' to
-      'against'.
-  - scorecard-attribute: There’s a robust set of Lido governance delegates
-    categories: Governance
-    self-assessment: Needs improvement
-    comments: >-
-      Lido DAO currently has vote delegation for Snapshot votes; however, the
-      delegate set is limited and significant amount of voting power is
-      undelegated and dormant.\
-
-      Lido is working on improving the delegate set and educating DAO members
-      about vote delegation.
-:::
