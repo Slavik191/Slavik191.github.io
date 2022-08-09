@@ -23,6 +23,7 @@ rows:
     categories: Security
     self-assessment: Good
     comments: "As discussed in our\_[The Next Chapter for Lido](https://blog.lido.fi/the-next-chapter-for-lido/)\_article, as a very last resort (in the case of governance capture) \\\nwe have made it trivial for Ethereum core developers to revoke Lido’s current permissions and transfer them to a community-owned contract."
+  - scorecard-attribute: ''
 :::
 
 ## Where we’re doing well, but can improve
