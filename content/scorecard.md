@@ -32,7 +32,7 @@ rows:
   - scorecard-attribute: Legally and physically unrelated
     categories: Validator market
     self-assessment: Okay
-  - scorecard-attribute: Lido’s hostile takeover via a hard fork is possible
+  - scorecard-attribute: Lido’s hostile takeover via a hard fork
     categories: Security
     self-assessment: Good
     comments: "As discussed in our\_[The Next Chapter for Lido](https://blog.lido.fi/the-next-chapter-for-lido/)\_article, as a very last resort (in the case of governance capture) we have made it trivial for Ethereum core developers to revoke Lido’s current permissions and transfer them to a community-owned contract."
