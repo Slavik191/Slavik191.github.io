@@ -8,12 +8,12 @@ export const nanoYaml = {
 }
 
 export const renderCustomDirective = (name, options) => (
-    `::: ${name}\n` + 
+    `:::${name}\n` + 
     (options ? nanoYaml.encode(options) : "") +
     ":::"
 );
 
-export const customDirectivePattern = name => new RegExp(`^::: ${name}\\n([\\s\\S]+?\\n)?:::$`, 'm')
+export const customDirectivePattern = name => new RegExp(`^:::${name}\\n([\\s\\S]+?\\n)?:::$`, 'm')
 
 export const registerCustomDirective = (name, options) => CMS.registerEditorComponent({
     id: name,

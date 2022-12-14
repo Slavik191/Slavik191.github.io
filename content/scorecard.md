@@ -14,7 +14,7 @@ The scorecard below shows how we are doing. We invite input and feedback from th
 
 While these attributes will remain under review, we assess Lido's performance to be 'Good'. We welcome community feedback on the attributes and how they are scored on our Research Forum.
 
-::: table
+:::table
 rows:
   - scorecard-attribute: Legally and physically unrelated
     categories: Validator market
@@ -27,7 +27,7 @@ rows:
 
 ## Where we’re doing well, but can improve
 
-::: table
+:::table
 rows:
   - scorecard-attribute: Legally and physically unrelated
     categories: Validator market
@@ -42,7 +42,7 @@ rows:
 
 While these attributes will remain under review, we assess Lido's performance to be 'Good'. We welcome community feedback on the attributes and how they are scored on our Research Forum.
 
-::: table
+:::table
 rows:
   - scorecard-attribute: Test
     categories: Validator market
