@@ -1,7 +1,7 @@
 export const nanoYaml = {
     encode: jsyaml.dump,
     decode: jsyaml.load 
-}
+};
 
 export const renderCustomDirective = (name, options) => (
     `:::${name}\n` + 
@@ -9,7 +9,7 @@ export const renderCustomDirective = (name, options) => (
     ":::"
 );
 
-export const customDirectivePattern = name => new RegExp(`^:::${name}\\n([\\s\\S]+?\\n)?:::$`, 'm')
+export const customDirectivePattern = name => new RegExp(`^:::${name}\\n([\\s\\S]+?\\n)?:::$`, "m");
 
 export const registerCustomDirective = (name, options) => CMS.registerEditorComponent({
     id: name,

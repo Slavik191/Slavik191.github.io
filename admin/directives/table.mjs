@@ -1,9 +1,9 @@
-import { registerCustomDirective } from '../utils/customDirectiveUtils.mjs'
+import { registerCustomDirective } from "../utils/customDirectiveUtils.mjs";
 
-registerCustomDirective('table', {
+registerCustomDirective("table", {
   fields: [{
-    name: 'rows',
-    label: 'Rows',
+    name: "rows",
+    label: "Rows",
     widget: "list",
     label_singular: "row",
     fields: [{
