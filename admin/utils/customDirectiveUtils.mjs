@@ -1,3 +1,7 @@
+import remarkDirective from 'https://esm.sh/remark-directive@2'
+
+CMS.registerRemarkPlugin(remarkDirective);
+
 export const nanoYaml = {
     encode: jsyaml.dump,
     decode: jsyaml.load 
