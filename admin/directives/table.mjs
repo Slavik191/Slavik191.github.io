@@ -1,4 +1,4 @@
-import { registerCustomDirective } from '../utils.mjs'
+import { registerCustomDirective } from '../utils/customDirectiveUtils.mjs'
 
 registerCustomDirective('table', {
   fields: [{
