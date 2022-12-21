@@ -1,5 +1,5 @@
 ---
-title: Lido on Ethereum 
+title: Lido on Ethereum
 description: Keep track of the latest updates on how Lido is performing against
   its goal of being decentralized, trustless, governance-minimized and
   ethos-aligned with the Ethereum community.
@@ -48,4 +48,12 @@ rows:
     categories: Validator market
     self-assessment: Okay
     comments: Tsest test [test](https://www.google.com/)
+:::
+
+:::table
+rows:
+  - scorecard-attribute: '3333'
+    categories: Validator market
+    self-assessment: Okay
+    comments: "s\uFEFFdfdfffsf sdfsdfsf sdfsdfs"
 :::
