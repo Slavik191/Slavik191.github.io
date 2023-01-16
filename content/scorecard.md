@@ -52,7 +52,7 @@ rows:
 
 :::table
 rows:
-  - scorecard-attribute: '3333'
+  - scorecard-attribute: qqqqqq
     categories: Validator market
     self-assessment: Okay
     comments: "s\uFEFFdfdfffsf sdfsdfsf sdfsdfs"
