@@ -3,6 +3,7 @@ backend:
   repo: Slavik191/Slavik191.github.io
   branch: main # Branch to update (optional; defaults to master)
   base_url: https://netlifycms-sample.vercel.app
+local_backend: true
 publish_mode: editorial_workflow
 show_preview_links: false
 media_folder: public/img
